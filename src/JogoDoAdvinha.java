@@ -49,6 +49,14 @@ public class JogoDoAdvinha {
 
     }
 
+    /**
+     * Calcula os pontos com base no número de tentativas.
+     * Menos tentativas resultam em mais pontos.
+     *
+     * @param tentativas Número de tentativas realizadas pelo jogador para acertar o número
+     * @return A quantidade de pontos que o jogador recebe, dependendo das tentativas.
+     */
+
     private static int calcularPontos(int tentativas) {
         if (tentativas == 1) {
             return 100;
