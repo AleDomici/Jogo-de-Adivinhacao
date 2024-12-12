@@ -38,7 +38,12 @@ public class JogoDoAdvinha {
                 }
             }
 
-        }
+            System.out.println("Pontuação total: " + pontuacaoTotal);
+            System.out.println("Deseja jogar outra rodada? (s/n):");
 
+            continuar = scanner.next().equalsIgnoreCase("s");
+        }
+        System.out.println("\n=== Obrigado por jogar! Sua pontuação final foi: " + pontuacaoTotal + " ===");
+        scanner.close();
     }
 }
