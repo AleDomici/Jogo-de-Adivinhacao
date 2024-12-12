@@ -18,9 +18,24 @@ public class JogoDoAdvinha {
 
             System.out.println("Tᴇɴᴛᴇ ᴀᴅɪᴠɪɴʜᴀ ᴏ ɴᴜ́ᴍᴇʀᴏ (ᴇɴᴛʀᴇ 1 ᴇ 100): ");
 
+            while (!acertou) {
+                System.out.println("Dɪɢɪᴛᴇ sᴇᴜ ᴘᴀʟᴘɪᴛᴇ: ");
+                int palpite = scanner.nextInt();
+                tentativas++;
+
+                if (palpite == numeroSorteado) {
+                    System.out.println("Parabens você acertou!");
+                    int pontos = calcularPontos(tentativas);
+                    pontuacaoTotal += pontos;
+                    System.out.println("Você ganhou " + pontos + "pontos nessa rodada.");
+                    acertou = true;
+            }
+            }
+
         }
 
 
 
     }
+
 }
