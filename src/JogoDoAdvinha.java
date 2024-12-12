@@ -45,5 +45,19 @@ public class JogoDoAdvinha {
         }
         System.out.println("\n=== Obrigado por jogar! Sua pontuação final foi: " + pontuacaoTotal + " ===");
         scanner.close();
+
+
+    }
+
+    private static int calcularPontos(int tentativas) {
+        if (tentativas == 1) {
+            return 100;
+        } else if (tentativas <= 3) {
+            return 70;
+        } else if (tentativas <= 5) {
+            return 50;
+        } else {
+            return 30;
+        }
     }
 }
