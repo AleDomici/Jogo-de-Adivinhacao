@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class JogoDoAdvinha {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
@@ -29,13 +29,16 @@ public class JogoDoAdvinha {
                     pontuacaoTotal += pontos;
                     System.out.println("Você ganhou " + pontos + "pontos nessa rodada.");
                     acertou = true;
-            }
+
+                } else if (Math.abs(palpite - numeroSorteado) <= 10) {
+
+                    System.out.println("Quase! você está perto.");
+                } else {
+                    System.out.println("Você está longe!");
+                }
             }
 
         }
 
-
-
     }
-
 }
