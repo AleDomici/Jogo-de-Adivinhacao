@@ -1,6 +1,8 @@
-#🎯 Jogo do Adivinha
-Bem-vindo ao **Jogo do Adivinha!** 🕹️
-Teste sua sorte e habilidades para adivinhar o número secreto sorteado pelo sistema.
+# 🎯 **Jogo do Adivinha**  
+
+Bem-vindo ao **Jogo do Adivinha**! 🕹️  
+Teste sua sorte e habilidades para adivinhar o número secreto sorteado pelo sistema.  
+
 ---
 
 ## 🚀 **Como jogar?**
