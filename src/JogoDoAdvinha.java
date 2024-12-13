@@ -32,9 +32,9 @@ public class JogoDoAdvinha {
 
                 } else if (Math.abs(palpite - numeroSorteado) <= 10) {
 
-                    System.out.println("Quase! você está perto.");
+                    System.out.println("Quente! Você está perto.");
                 } else {
-                    System.out.println("Você está longe!");
+                    System.out.println("Frio! Você está longe");
                 }
             }
 
