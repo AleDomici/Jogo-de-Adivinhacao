@@ -5,7 +5,7 @@ Teste sua sorte e habilidades para adivinhar o número secreto sorteado pelo sis
 
 ---
 
-## 🚀 **Como jogar?**
+## 🚀 **Como jogar?**  
 
 1️⃣ O sistema irá **sortear um número aleatório** entre **1 e 100**.  
 2️⃣ Você terá que **adivinhar o número** com base em dicas de proximidade:  
@@ -27,7 +27,6 @@ Teste sua sorte e habilidades para adivinhar o número secreto sorteado pelo sis
    ```bash
    javac JogoDoAdivinha.java
    java JogoDoAdivinha
-4. Divirta-se jogando! 🎉
 
 ## 📋 **Recursos do jogo**
 
