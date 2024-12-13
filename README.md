@@ -10,7 +10,8 @@ Teste sua sorte e habilidades para adivinhar o número secreto sorteado pelo sis
 1️⃣ O sistema irá **sortear um número aleatório** entre **1 e 100**.  
 2️⃣ Você terá que **adivinhar o número** com base em dicas de proximidade:  
    - 🔥 *"Quente"* para palpites próximos.  
-   - ❄️ *"Frio"* para palpites distantes.  
+   - ❄️ *"Frio"* para palpites distantes.
+     
 3️⃣ **A pontuação será calculada** com base no número de tentativas:  
    - **💯 100 pontos**: Acertou na 1ª tentativa.  
    - **🏅 70 pontos**: Entre 2 e 3 tentativas.  
